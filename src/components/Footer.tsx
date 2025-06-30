@@ -1,5 +1,6 @@
 import React from 'react';
-import { Code, Mail, Phone, MapPin, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
+import logo from '../images/logo.png';
 
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,7 +17,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Code className="h-8 w-8 text-orange-500" />
+              <img 
+                src={logo} 
+                alt="TechEntrance Logo" 
+                className="h-8 w-auto" 
+              />
               <span className="text-xl font-bold">TechEntrance</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
@@ -114,7 +119,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 TechEntrance. All rights reserved.
+              2024 TechEntrance. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">

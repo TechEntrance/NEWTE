@@ -6,35 +6,35 @@ const Portfolio = () => {
     {
       title: "Neutralize",
       description: "Modern e-commerce platform with advanced inventory management and seamless user experience.",
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["E-commerce", "React", "Node.js"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "Tuljha Hotel",
       description: "Luxury hotel booking system with real-time availability and elegant design.",
-      image: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.pexels.com/photos/164077/pexels-photo-164077.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Hospitality", "Booking System", "UI/UX"],
       icon: <Palette className="h-6 w-6" />
     },
     {
       title: "Wildolk",
       description: "Creative agency portfolio showcasing stunning visual identity and interactive elements.",
-      image: "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Portfolio", "Creative", "Animation"],
       icon: <Zap className="h-6 w-6" />
     },
     {
       title: "Stellar Springs",
       description: "Resort management platform with booking, guest services, and operational dashboards.",
-      image: "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.pexels.com/photos/164076/pexels-photo-164076.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Resort", "Management", "Dashboard"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "Bharat Moovers",
       description: "Logistics and moving company website with service tracking and quote generation.",
-      image: "https://images.pexels.com/photos/7464230/pexels-photo-7464230.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.pexels.com/photos/373074/pexels-photo-373074.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Logistics", "Tracking", "CRM"],
       icon: <Code className="h-6 w-6" />
     },

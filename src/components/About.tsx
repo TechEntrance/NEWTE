@@ -45,7 +45,7 @@ const About = () => {
             <h3 className="text-3xl font-bold text-slate-900 mb-6">Our Story</h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Founded in 2021, TechEntrance began as a vision to bridge the gap between innovative 
+                Founded in 2023, TechEntrance began as a vision to bridge the gap between innovative 
                 technology and business success. We recognized that many companies struggled to establish 
                 a strong digital presence that truly represented their brand and values.
               </p>
@@ -68,7 +68,7 @@ const About = () => {
               className="rounded-2xl shadow-xl"
             />
             <div className="absolute -bottom-6 -right-6 bg-orange-500 text-white p-6 rounded-2xl shadow-lg">
-              <div className="text-3xl font-bold">3+</div>
+              <div className="text-3xl font-bold">2+</div>
               <div className="text-sm">Years of Excellence</div>
             </div>
           </div>

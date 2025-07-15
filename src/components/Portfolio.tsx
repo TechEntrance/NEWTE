@@ -6,70 +6,70 @@ const Portfolio = () => {
     {
       title: "Neutralize",
       description: "Modern e-commerce platform with advanced inventory management and seamless user experience.",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "./images/projects/ecommerce.jpg",
       tags: ["E-commerce", "React", "Node.js"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "Tuljha Hotel",
       description: "Luxury hotel booking system with real-time availability and elegant design.",
-      image: "https://images.pexels.com/photos/164077/pexels-photo-164077.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "./images/projects/hotel.jpg",
       tags: ["Hospitality", "Booking System", "UI/UX"],
       icon: <Palette className="h-6 w-6" />
     },
     {
       title: "Wildolk",
       description: "Creative agency portfolio showcasing stunning visual identity and interactive elements.",
-      image: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/images/projects/wildoak.png",
       tags: ["Portfolio", "Creative", "Animation"],
       icon: <Zap className="h-6 w-6" />
     },
     {
-      title: "Stellar Springs",
-      description: "Resort management platform with booking, guest services, and operational dashboards.",
-      image: "https://images.pexels.com/photos/164076/pexels-photo-164076.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Stellar Sprangs",
+      description: "Digital marketing agency with building , services, and operational dashboards.",
+      image: "/images/projects/stellarssprang.png",
       tags: ["Resort", "Management", "Dashboard"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "Bharat Moovers",
       description: "Logistics and moving company website with service tracking and quote generation.",
-      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: "/images/projects/logistics.jpg",
       tags: ["Logistics", "Tracking", "CRM"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "Tennis Cricket Association",
       description: "Sports management system for organizing tournaments, managing registrations, and tracking player statistics.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba363c780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: "/images/projects/sports.jpg",
       tags: ["Sports", "Management", "Registration"],
       icon: <Zap className="h-6 w-6" />
     },
     {
       title: "EduBridge",
       description: "Online learning platform with interactive courses, student management, and virtual classroom features.",
-      image: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: "/images/projects/education.png",
       tags: ["Education", "Learning", "Management"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "MediConnect",
       description: "Telemedicine platform connecting patients with healthcare providers through secure video consultations and medical record management.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+      image: "/images/projects/medicine.png",
       tags: ["Healthcare", "Telemedicine", "API"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "FoodFusion",
       description: "Restaurant ordering system with real-time inventory management, delivery tracking, and customer loyalty program.",
-      image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/images/projects/food.png",
       tags: ["Food", "Delivery", "Management"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "SportTrack",
       description: "Sports event management and ticketing platform with real-time updates and fan engagement features.",
-      image: "https://images.pexels.com/photos/1387484/pexels-photo-1387484.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "/images/projects/sports.jpg",
       tags: ["Sports", "Events", "Ticketing"],
       icon: <Code className="h-6 w-6" />
     }
@@ -99,6 +99,7 @@ const Portfolio = () => {
                   src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                  onError={(e) => e.target.src = 'https://via.placeholder.com/800x600'}
                 />
                 <div className="absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <button className="bg-white text-slate-900 px-6 py-3 rounded-lg flex items-center space-x-2 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">

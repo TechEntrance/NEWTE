@@ -40,35 +40,35 @@ const Portfolio = () => {
     },
     {
       title: "Tennis Cricket Association",
-      description: "Sports association platform with tournament management and player registration.",
-      image: "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=800",
+      description: "Sports management system for organizing tournaments, managing registrations, and tracking player statistics.",
+      image: "https://images.pexels.com/photos/1387484/pexels-photo-1387484.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Sports", "Management", "Registration"],
       icon: <Zap className="h-6 w-6" />
     },
     {
       title: "EduBridge",
-      description: "Online learning platform with interactive courses and student management system.",
-      image: "https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&w=800",
+      description: "Online learning platform with interactive courses, student management, and virtual classroom features.",
+      image: "https://images.pexels.com/photos/3861966/pexels-photo-3861966.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Education", "Learning", "Management"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "MediConnect",
-      description: "Telemedicine platform connecting patients with healthcare providers.",
-      image: "https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&w=800",
+      description: "Telemedicine platform connecting patients with healthcare providers through secure video consultations and medical record management.",
+      image: "https://images.pexels.com/photos/1005301/pexels-photo-1005301.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Healthcare", "Telemedicine", "API"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "FoodFusion",
-      description: "Restaurant ordering system with real-time inventory and delivery tracking.",
+      description: "Restaurant ordering system with real-time inventory management, delivery tracking, and customer loyalty program.",
       image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Food", "Delivery", "Management"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "SportTrack",
-      description: "Sports event management and ticketing platform with real-time updates.",
+      description: "Sports event management and ticketing platform with real-time updates and fan engagement features.",
       image: "https://images.pexels.com/photos/1387484/pexels-photo-1387484.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Sports", "Events", "Ticketing"],
       icon: <Code className="h-6 w-6" />

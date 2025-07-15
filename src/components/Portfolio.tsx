@@ -34,28 +34,28 @@ const Portfolio = () => {
     {
       title: "Bharat Moovers",
       description: "Logistics and moving company website with service tracking and quote generation.",
-      image: "https://images.pexels.com/photos/373074/pexels-photo-373074.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       tags: ["Logistics", "Tracking", "CRM"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "Tennis Cricket Association",
       description: "Sports management system for organizing tournaments, managing registrations, and tracking player statistics.",
-      image: "https://images.pexels.com/photos/1387484/pexels-photo-1387484.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba363c780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       tags: ["Sports", "Management", "Registration"],
       icon: <Zap className="h-6 w-6" />
     },
     {
       title: "EduBridge",
       description: "Online learning platform with interactive courses, student management, and virtual classroom features.",
-      image: "https://images.pexels.com/photos/3861966/pexels-photo-3861966.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       tags: ["Education", "Learning", "Management"],
       icon: <Code className="h-6 w-6" />
     },
     {
       title: "MediConnect",
       description: "Telemedicine platform connecting patients with healthcare providers through secure video consultations and medical record management.",
-      image: "https://images.pexels.com/photos/1005301/pexels-photo-1005301.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
       tags: ["Healthcare", "Telemedicine", "API"],
       icon: <Code className="h-6 w-6" />
     },

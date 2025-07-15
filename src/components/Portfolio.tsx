@@ -36,7 +36,7 @@ const Portfolio = () => {
       description: "Logistics and moving company website with service tracking and quote generation.",
       image: "https://images.pexels.com/photos/7464230/pexels-photo-7464230.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Logistics", "Tracking", "CRM"],
-      icon: <Palette className="h-6 w-6" />
+      icon: <Code className="h-6 w-6" />
     },
     {
       title: "Tennis Cricket Association",
@@ -44,6 +44,34 @@ const Portfolio = () => {
       image: "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&w=800",
       tags: ["Sports", "Management", "Registration"],
       icon: <Zap className="h-6 w-6" />
+    },
+    {
+      title: "EduBridge",
+      description: "Online learning platform with interactive courses and student management system.",
+      image: "https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["Education", "Learning", "Management"],
+      icon: <Code className="h-6 w-6" />
+    },
+    {
+      title: "MediConnect",
+      description: "Telemedicine platform connecting patients with healthcare providers.",
+      image: "https://images.pexels.com/photos/406152/pexels-photo-406152.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["Healthcare", "Telemedicine", "API"],
+      icon: <Code className="h-6 w-6" />
+    },
+    {
+      title: "FoodFusion",
+      description: "Restaurant ordering system with real-time inventory and delivery tracking.",
+      image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["Food", "Delivery", "Management"],
+      icon: <Code className="h-6 w-6" />
+    },
+    {
+      title: "SportTrack",
+      description: "Sports event management and ticketing platform with real-time updates.",
+      image: "https://images.pexels.com/photos/1387484/pexels-photo-1387484.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["Sports", "Events", "Ticketing"],
+      icon: <Code className="h-6 w-6" />
     }
   ];
 
